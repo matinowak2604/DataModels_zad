@@ -1,0 +1,82 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Data_models_project1</Database>
+    <Server>WIN10ROBOCZY\ROBOCZY_AS</Server>
+    <ConnectionString>Data Source=WIN10ROBOCZY\ROBOCZY_AS;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>IN15aksOi25tDjhyWKTDsGHsSXE=07.10.2018 15:36:2521.10.2018 10:40:06</TimeStamp>
+        <ID>
+          <String>Contoso Retail DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>B3M2uVlbrxG2b+Tlgx5gY0L2Bf8=21.10.2018 15:40:2621.10.2018 10:40:06</TimeStamp>
+        <ID>
+          <String>Contoso Retail DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>b7x0rvft+nxxUOB4Agoo8Gb+mDw=21.10.2018 15:25:0321.10.2018 10:40:06</TimeStamp>
+        <ID>
+          <String>v_Dim_Machine</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>1hQ21wARsuPIiPqDMxeSqtY82ZA=21.10.2018 15:27:1621.10.2018 10:40:06</TimeStamp>
+        <ID>
+          <String>v_Dim_Outage</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>YbttoOCSaDs+QN31hdOjbGXUWuA=21.10.2018 15:27:1621.10.2018 10:40:06</TimeStamp>
+        <ID>
+          <String>v_Dim_Store</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>hDLWJnrFYCLqrlUmp5zJpfd+Go0=21.10.2018 15:44:1621.10.2018 10:40:06</TimeStamp>
+        <ID>
+          <String>v_Dim_Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>/+8WyGxCD7avA5FYDh4XGZfaC1Y=21.10.2018 15:47:3121.10.2018 10:48:31a9vFLwTe46f3iKypEuZEYOe2JyM=21.10.2018 15:41:0921.10.2018 10:48:31</TimeStamp>
+        <ID>
+          <String>Contoso_Retail_DW_Cubes</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>jBIMaCB1N+RpkBBcSXHBTn3EemE=07.10.2018 09:16:4921.10.2018 10:40:06</TimeStamp>
+      <ID>
+        <String>Data_models_project1</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2018-10-21T13:48:49.51Z</LastDeployed>
+</DeploymentSnapshot>

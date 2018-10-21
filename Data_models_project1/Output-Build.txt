@@ -1,0 +1,14 @@
+﻿------ Build started: Project: Data_models_project1, Configuration: Development ------
+Started Building Analysis Services project: Incremental ....
+Dimension [v_Dim_Machine] : Create hierarchies in non-parent child dimensions.
+Dimension [v_Dim_Date] : Create hierarchies in non-parent child dimensions.
+Dimension [v_Dim_Outage] : Create hierarchies in non-parent child dimensions.
+Dimension [v_Dim_Store] : Create hierarchies in non-parent child dimensions.
+Database [Data_models_project1] : The database has no Time dimension. Consider creating one.
+Build complete -- 0 errors, 5 warnings
+------ Deploy started: Project: Data_models_project1, Configuration: Development ------
+Performing an incremental deployment of the 'Data_models_project1' database to the 'WIN10ROBOCZY\ROBOCZY_AS' server.
+No changes detected. The Data_models_project1 database on the WIN10ROBOCZY\ROBOCZY_AS server is up-to-date.
+Deploy complete -- 0 errors, 0 warnings
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========
+========== Deploy: 1 succeeded, 0 failed, 0 skipped ==========
