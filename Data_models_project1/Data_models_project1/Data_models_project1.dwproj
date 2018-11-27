@@ -35,6 +35,14 @@
       <Name>v_Dim_Store.dim</Name>
       <FullPath>v_Dim_Store.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>v Dim Entity.dim</Name>
+      <FullPath>v Dim Entity.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>vDDim_Fact_IT_Machine.dim</Name>
+      <FullPath>vDDim_Fact_IT_Machine.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>

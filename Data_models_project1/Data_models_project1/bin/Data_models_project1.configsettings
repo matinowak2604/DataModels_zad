@@ -15,13 +15,19 @@
         <ID>v_Dim_Machine</ID>
       </Dimension>
       <Dimension>
+        <ID>v_Dim_Date</ID>
+      </Dimension>
+      <Dimension>
         <ID>v_Dim_Outage</ID>
       </Dimension>
       <Dimension>
         <ID>v_Dim_Store</ID>
       </Dimension>
       <Dimension>
-        <ID>v_Dim_Date</ID>
+        <ID>v Dim Entity</ID>
+      </Dimension>
+      <Dimension>
+        <ID>vDDim_Fact_IT_Machine</ID>
       </Dimension>
     </Dimensions>
     <Cubes>
@@ -33,6 +39,14 @@
             <Partitions>
               <Partition>
                 <ID>v Fact ITSLA</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>v Fact IT Machine</ID>
+            <Partitions>
+              <Partition>
+                <ID>v Fact IT Machine</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>
