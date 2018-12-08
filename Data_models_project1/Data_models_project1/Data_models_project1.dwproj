@@ -43,6 +43,10 @@
       <Name>vDDim_Fact_IT_Machine.dim</Name>
       <FullPath>vDDim_Fact_IT_Machine.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>v Dim Geography.dim</Name>
+      <FullPath>v Dim Geography.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>

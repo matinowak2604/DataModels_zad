@@ -19,63 +19,70 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>IN15aksOi25tDjhyWKTDsGHsSXE=07.10.2018 15:36:2521.10.2018 10:40:06</TimeStamp>
+        <TimeStamp>IN15aksOi25tDjhyWKTDsGHsSXE=27.11.2018 22:38:3127.11.2018 22:38:31</TimeStamp>
         <ID>
           <String>Contoso Retail DW</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>WhJsgXcCsxDtCKXC/hFKYBmSC9A=25.11.2018 15:29:4821.10.2018 10:40:06</TimeStamp>
+        <TimeStamp>YRa6kND7DRqLHAlPq9dX3Y9t2wM=08.12.2018 20:59:0727.11.2018 22:38:31</TimeStamp>
         <ID>
           <String>Contoso Retail DW</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>b7x0rvft+nxxUOB4Agoo8Gb+mDw=21.10.2018 15:25:0321.10.2018 10:40:06</TimeStamp>
+        <TimeStamp>b7x0rvft+nxxUOB4Agoo8Gb+mDw=27.11.2018 22:38:3127.11.2018 22:38:31</TimeStamp>
         <ID>
           <String>v_Dim_Machine</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>hDLWJnrFYCLqrlUmp5zJpfd+Go0=21.10.2018 15:44:1621.10.2018 10:40:06</TimeStamp>
+        <TimeStamp>hDLWJnrFYCLqrlUmp5zJpfd+Go0=27.11.2018 22:38:3127.11.2018 22:38:31</TimeStamp>
         <ID>
           <String>v_Dim_Date</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>1hQ21wARsuPIiPqDMxeSqtY82ZA=21.10.2018 15:27:1621.10.2018 10:40:06</TimeStamp>
+        <TimeStamp>1hQ21wARsuPIiPqDMxeSqtY82ZA=27.11.2018 22:38:3127.11.2018 22:38:31</TimeStamp>
         <ID>
           <String>v_Dim_Outage</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>Z0wlF8hjWaXvf0JiSegFiUzpYOM=25.11.2018 14:49:1621.10.2018 10:40:06</TimeStamp>
+        <TimeStamp>Z0wlF8hjWaXvf0JiSegFiUzpYOM=27.11.2018 22:38:3127.11.2018 22:38:31</TimeStamp>
         <ID>
           <String>v_Dim_Store</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>mXv9bboFpvGQRoHiN0P5kaa2JPQ=25.11.2018 15:03:2925.11.2018 14:42:24</TimeStamp>
+        <TimeStamp>mXv9bboFpvGQRoHiN0P5kaa2JPQ=27.11.2018 22:38:3127.11.2018 22:38:31</TimeStamp>
         <ID>
           <String>v Dim Entity</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>KKGzs0rEBmy9M1C2zSE4ZFPI8CI=25.11.2018 15:35:0825.11.2018 15:35:07</TimeStamp>
+        <TimeStamp>S3NWmNFBh/OOq/6XEFn+dnDwANw=08.12.2018 20:54:0327.11.2018 22:38:31</TimeStamp>
         <ID>
           <String>vDDim_Fact_IT_Machine</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>LxvcOlup7G4mR0h5XKgfiHLCkRY=08.12.2018 20:54:0308.12.2018 20:54:02</TimeStamp>
+        <ID>
+          <String>v Dim Geography</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>/8xbA6Z1nCtOW21nhSZud0cNbAI=25.11.2018 15:36:2521.10.2018 10:48:31WEuTEkDpQosL5NTTrXFCLzWBwcA=25.11.2018 15:30:0321.10.2018 10:48:31</TimeStamp>
+        <TimeStamp>qJr3PmDZqYi85z2D7wMseXJcM2Y=08.12.2018 20:59:0727.11.2018 22:38:31WEuTEkDpQosL5NTTrXFCLzWBwcA=27.11.2018 22:38:3127.11.2018 22:38:31</TimeStamp>
         <ID>
           <String>Contoso_Retail_DW_Cubes</String>
         </ID>
@@ -83,7 +90,7 @@
     </ObjectSnapshots>
     <DatabaseSnapshot>
       <Type>Microsoft.AnalysisServices.Database</Type>
-      <TimeStamp>jBIMaCB1N+RpkBBcSXHBTn3EemE=07.10.2018 09:16:4921.10.2018 10:40:06</TimeStamp>
+      <TimeStamp>jBIMaCB1N+RpkBBcSXHBTn3EemE=27.11.2018 22:38:3127.11.2018 22:38:31</TimeStamp>
       <ID>
         <String>Data_models_project1</String>
       </ID>
@@ -92,5 +99,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2018-11-25T14:36:28.913333Z</LastDeployed>
+  <LastDeployed>2018-12-08T19:59:10.43Z</LastDeployed>
 </DeploymentSnapshot>

@@ -29,6 +29,9 @@
       <Dimension>
         <ID>vDDim_Fact_IT_Machine</ID>
       </Dimension>
+      <Dimension>
+        <ID>v Dim Geography</ID>
+      </Dimension>
     </Dimensions>
     <Cubes>
       <Cube>
