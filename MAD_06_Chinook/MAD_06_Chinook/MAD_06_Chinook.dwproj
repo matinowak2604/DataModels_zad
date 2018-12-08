@@ -36,8 +36,8 @@
       <FullPath>Vw Track.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Vw Playlist 1.dim</Name>
-      <FullPath>Vw Playlist 1.dim</FullPath>
+      <Name>Vw Album.dim</Name>
+      <FullPath>Vw Album.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>

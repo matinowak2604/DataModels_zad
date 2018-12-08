@@ -1,0 +1,89 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>MAD_06_Chinook</Database>
+    <Server>WIN10ROBOCZY\ROBOCZY_AS</Server>
+    <ConnectionString>Data Source=WIN10ROBOCZY\ROBOCZY_AS;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>799HVWBrM5ebtTjLmkxqg2U8uJs=27.11.2018 22:38:3127.11.2018 22:38:31</TimeStamp>
+        <ID>
+          <String>Chinook</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>k9JIToFAl1pflvX6CEVGkfLhV78=27.11.2018 22:38:3127.11.2018 22:38:31</TimeStamp>
+        <ID>
+          <String>Chinook</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>C1CzxamrRQNlDZdWVUoWtTShKlw=27.11.2018 22:38:3127.11.2018 22:38:31</TimeStamp>
+        <ID>
+          <String>Vw Playlist</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>DS1D+ExFlRna/QHu2h3fPLd1MEg=27.11.2018 22:38:3127.11.2018 22:38:31</TimeStamp>
+        <ID>
+          <String>Vw Customer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>i6UayY8pLLhEql0bfjLqzyHquTk=27.11.2018 22:38:3127.11.2018 22:38:31</TimeStamp>
+        <ID>
+          <String>Invoice</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>iAi1aW/DkACdy+z8DWKjFOGpe5c=27.11.2018 22:38:3127.11.2018 22:38:31</TimeStamp>
+        <ID>
+          <String>Vw Track</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>F/UPl++TQeCUfl2Q+npgCzbHgkI=08.12.2018 21:39:5408.12.2018 21:39:54</TimeStamp>
+        <ID>
+          <String>Vw Album</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>sM5cEWKgiYMvIcXN6mEDWXD2PF4=08.12.2018 21:42:3527.11.2018 22:38:31HZnAXMnBlPljI+KhJa3QkepHCow=08.12.2018 21:29:1727.11.2018 22:38:31</TimeStamp>
+        <ID>
+          <String>Chinook_dsv</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>bftoWrChqHuIHo+NLbpfRyQiiqc=27.11.2018 22:38:3127.11.2018 22:38:31</TimeStamp>
+      <ID>
+        <String>MAD_06_Chinook</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2018-12-08T20:42:43.396667Z</LastDeployed>
+</DeploymentSnapshot>

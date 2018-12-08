@@ -21,5 +21,25 @@
         </Partition>
       </Partitions>
     </MeasureGroup>
+    <MeasureGroup>
+      <ID>Playlist Track</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="1b42bcaa-1fcd-489f-9058-279799910148">
+          <ID>Playlist Track</ID>
+          <Name>Playlist Track</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="b4f7fd52-4ba0-4c00-950d-a61fb8edbb9b">
+            <DataSourceViewID>Chinook</DataSourceViewID>
+            <TableID>dbo_PlaylistTrack</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
   </MeasureGroups>
 </Cube>

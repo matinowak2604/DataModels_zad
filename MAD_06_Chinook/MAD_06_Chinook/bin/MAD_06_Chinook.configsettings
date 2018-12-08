@@ -24,7 +24,7 @@
         <ID>Vw Track</ID>
       </Dimension>
       <Dimension>
-        <ID>Vw Playlist 1</ID>
+        <ID>Vw Album</ID>
       </Dimension>
     </Dimensions>
     <Cubes>
@@ -36,6 +36,14 @@
             <Partitions>
               <Partition>
                 <ID>Invoice Line</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Playlist Track</ID>
+            <Partitions>
+              <Partition>
+                <ID>Playlist Track</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>
