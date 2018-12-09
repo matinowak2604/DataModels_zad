@@ -82,7 +82,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>uhH22nenA0W7i1vCx5I0Z3mFw3w=09.12.2018 10:19:5027.11.2018 22:38:31WEuTEkDpQosL5NTTrXFCLzWBwcA=09.12.2018 09:51:4627.11.2018 22:38:31</TimeStamp>
+        <TimeStamp>YWt8VdkqP6scexlh0y8wno/e4Mc=09.12.2018 10:28:3527.11.2018 22:38:31WEuTEkDpQosL5NTTrXFCLzWBwcA=09.12.2018 09:51:4627.11.2018 22:38:31</TimeStamp>
         <ID>
           <String>Contoso_Retail_DW_Cubes</String>
         </ID>
@@ -99,5 +99,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2018-12-09T09:19:54.06Z</LastDeployed>
+  <LastDeployed>2018-12-09T09:43:30.596667Z</LastDeployed>
 </DeploymentSnapshot>

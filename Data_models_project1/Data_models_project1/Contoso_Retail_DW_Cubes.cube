@@ -670,6 +670,248 @@
       </Attributes>
     </Dimension>
   </Dimensions>
+  <Perspectives>
+    <Perspective dwd:design-time-name="71551f64-2038-4cdb-8ac0-042214d24338">
+      <ID>Perspective</ID>
+      <Name>Prs_ITSLA</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Dimensions>
+        <Dimension dwd:design-time-name="1997420f-5301-44b9-abe1-e19b5f2f67b7">
+          <CubeDimensionID>v_Dim_Machine</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="a04d8b1e-3526-4919-8d2b-689d7cb48e4f">
+              <AttributeID>Machine Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="e541541f-e9c8-47de-91fb-66a07c4d75ad">
+              <AttributeID>Machine Type</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="6bcd6024-6696-4c7b-907a-e98d58ef2b53">
+              <AttributeID>Machine Name</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="4292dd3b-5750-45f8-afaf-16c85fc00bb0">
+              <AttributeID>Machine Description</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="d3f50084-fec5-4ea3-be8f-9991c684456a">
+              <AttributeID>Vendor Name</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="29ad3e78-e734-4133-af4f-13abb5530947">
+              <AttributeID>Machine OS</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension dwd:design-time-name="f8337f43-5f52-4c5e-b52d-40b6400ff11c">
+          <CubeDimensionID>v_Dim_Date</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="1884290a-92cf-4d32-b640-a64ff30d6ee8">
+              <AttributeID>Datekey</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="dca08345-fa7b-4a1f-99a2-a65af74ce40b">
+              <AttributeID>Calendar Month</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="124a10a9-6692-42ae-a81b-5cc10429168c">
+              <AttributeID>Calendar Quarter</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="f0ed55eb-fec2-4baa-8322-b0bdda5d050d">
+              <AttributeID>Calendar Year</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="00983b78-d987-4b37-ab90-8b9b0044e457">
+              <AttributeID>Calendar Half Year</AttributeID>
+            </Attribute>
+          </Attributes>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="33efacd5-780c-40a5-82fa-11bb18c3c0dd">
+              <HierarchyID>Hierarchy</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+        <Dimension dwd:design-time-name="bd8611e4-dfcc-4e12-9a16-27fa30cd0a98">
+          <CubeDimensionID>v_Dim_Outage</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="7372a0ab-b798-4170-b86f-a05db7ca881f">
+              <AttributeID>Outage Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="d7720ff3-de76-4c5a-a054-142f4c93a52e">
+              <AttributeID>Outage Name</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="7e893065-ea28-4d08-bf83-e69ddf054368">
+              <AttributeID>Outage Description</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="d75ffdac-ab4c-40c1-b691-145610617d13">
+              <AttributeID>Outage Type</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="9a69e9dd-8f44-4d94-928d-9e37c64d12b0">
+              <AttributeID>Outage Type Description</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="0ee1e49f-4a90-400e-a24b-f78d4661e38c">
+              <AttributeID>Outage Sub Type</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension dwd:design-time-name="70725cb4-f52e-4bd3-ac6b-4a795b60dd89">
+          <CubeDimensionID>v_Dim_Store</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="45cd4e6c-c22c-4663-af79-3b2eedf149f8">
+              <AttributeID>Store Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="119e5865-fe34-4682-ae1b-036920dfe84a">
+              <AttributeID>Store Type</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="95fea1dd-3d23-4e6c-ad4c-998e51b08087">
+              <AttributeID>Store Description</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="ef48cce1-a6f9-474e-8802-01ec9095a14e">
+              <AttributeID>Status</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="a69da3e5-afc0-4b8d-bc7f-09f40872a08a">
+              <AttributeID>Entity Key</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension dwd:design-time-name="5902334e-38c1-42f4-aadd-22b363713f28">
+          <CubeDimensionID>v Dim Entity</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="77bbf7c3-7269-43a4-814e-0375dc820c47">
+              <AttributeID>Entity Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="c6a38e32-77c7-4128-a339-4c00ccd2cbef">
+              <AttributeID>Parent Entity Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="b5af944d-364b-411c-91a3-643657e5ac5c">
+              <AttributeID>Entity Name</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension dwd:design-time-name="35840d5f-9343-4d8f-a99a-ea066a247fcb">
+          <CubeDimensionID>v Dim Geography</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="8a2d4df0-02d4-4ddb-9b12-f4723678a343">
+              <AttributeID>Geography Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="4edc59dd-2211-4c15-91e9-6cc5dafc9c50">
+              <AttributeID>Geography Name</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="dabb3bdc-2e3a-4899-9a8f-ef9244a22eb6">
+              <AttributeID>Geography Type</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="e9d95861-58f2-48b7-abe9-abdbd43a21a5">
+              <AttributeID>Continent Name</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="3bb4ca78-cc3d-46be-81b4-3a44a5e7b539">
+              <AttributeID>City Name</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="58c6adcb-0ffd-4396-ac83-21ea1759d2a0">
+              <AttributeID>State Province Name</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="9011497c-0ea0-42bc-906d-fdf84aaf881d">
+              <AttributeID>Region Country Name</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <MeasureGroups>
+        <MeasureGroup dwd:design-time-name="6c0d0131-56a6-4a93-918d-8939bdc6beac">
+          <MeasureGroupID>v Fact ITSLA</MeasureGroupID>
+          <Measures>
+            <Measure dwd:design-time-name="dc793a9c-cdbf-4824-a9af-af29a655002e">
+              <MeasureID>Down Time</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="8642b154-3971-4fd7-9d7f-5ada07689637">
+              <MeasureID>v Fact ITSLA Count</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="908509bd-9fed-490d-b6e5-2270075f80a1">
+              <MeasureID>Down Time Hrs</MeasureID>
+            </Measure>
+          </Measures>
+        </MeasureGroup>
+      </MeasureGroups>
+    </Perspective>
+    <Perspective dwd:design-time-name="687264f6-b0d0-4778-a7e0-6586121a15ce">
+      <ID>Perspective 1</ID>
+      <Name>Prs_ITMachine</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Dimensions>
+        <Dimension dwd:design-time-name="cf514d5d-69e9-41cc-a507-5c452bc0bba4">
+          <CubeDimensionID>v_Dim_Machine</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="0d094a95-6919-4ff3-899f-b62c781eca93">
+              <AttributeID>Machine Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="643c8181-d7c1-42bb-980b-af9e10ebe7ba">
+              <AttributeID>Machine Type</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="8508a8f5-1c10-460b-9fa1-1aa7f11bdf91">
+              <AttributeID>Machine Name</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="5c8f9e30-c851-4e46-afbb-5eae0a0a54b9">
+              <AttributeID>Machine Description</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="69d6ee15-8be9-4079-b7f7-dd028725f401">
+              <AttributeID>Vendor Name</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="125d03c3-22d0-4538-9bb6-1705309c334b">
+              <AttributeID>Machine OS</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension dwd:design-time-name="56d3171d-de77-4f34-a4a3-e66cf307e6a1">
+          <CubeDimensionID>v_Dim_Date</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="57f62899-e251-44a0-8ca6-268ca729eba8">
+              <AttributeID>Datekey</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="0c8adc80-1f90-40d5-964d-f066b9d2f6fe">
+              <AttributeID>Calendar Month</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="c63f7c32-8b0a-4dc9-a44f-30b243057280">
+              <AttributeID>Calendar Quarter</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="938cf44a-4c45-432b-bebf-0720a2a7c0c9">
+              <AttributeID>Calendar Year</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="c5eb9a7d-ff0d-41d6-84ef-e235c1c8d273">
+              <AttributeID>Calendar Half Year</AttributeID>
+            </Attribute>
+          </Attributes>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="25ec857c-3bef-4c99-ae6a-10bd3bbba051">
+              <HierarchyID>Hierarchy</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+      </Dimensions>
+      <MeasureGroups>
+        <MeasureGroup dwd:design-time-name="f75bf66d-8dc9-4874-92f6-0c935257c237">
+          <MeasureGroupID>v Fact IT Machine</MeasureGroupID>
+          <Measures>
+            <Measure dwd:design-time-name="abe4dc0e-cf26-45b8-8b79-81ecb51f65c0">
+              <MeasureID>Cost Amount</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="c93adc9f-9bd1-42b0-b501-4ce12d83e1de">
+              <MeasureID>v Fact IT Machine Count</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="a034fce4-5a9c-4ef9-b409-0a731bc5e8e2">
+              <MeasureID>Minimum Cost Amount</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="42c3a04e-1c2f-408a-969d-7dfa5095ffd7">
+              <MeasureID>Maximum Cost Amount</MeasureID>
+            </Measure>
+          </Measures>
+        </MeasureGroup>
+      </MeasureGroups>
+      <Calculations>
+        <Calculation dwd:design-time-name="7fbb7aa2-e365-4e1a-9887-47303b13e7fa">
+          <Name>[Measures].[Max-Min]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="46e511f8-ec3a-4009-af49-f54767c9c420">
+          <Name>[Measures].[Koszt sredni]</Name>
+          <Type>Member</Type>
+        </Calculation>
+      </Calculations>
+    </Perspective>
+  </Perspectives>
   <MeasureGroups>
     <MeasureGroup dwd:design-time-name="627c9039-f406-4e50-a485-f40bb772c6a2">
       <ID>v Fact ITSLA</ID>
