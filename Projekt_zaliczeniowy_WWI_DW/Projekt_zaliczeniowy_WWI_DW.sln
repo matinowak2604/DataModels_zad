@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Projekt_zaliczeniowy_WWI_DW", "Projekt_zaliczeniowy_WWI_DW\Projekt_zaliczeniowy_WWI_DW.dwproj", "{0426F988-0E60-43BC-AC03-1BA52173D085}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Administartor|Default = Administartor|Default
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0426F988-0E60-43BC-AC03-1BA52173D085}.Administartor|Default.ActiveCfg = Development
+		{0426F988-0E60-43BC-AC03-1BA52173D085}.Administartor|Default.Build.0 = Development
+		{0426F988-0E60-43BC-AC03-1BA52173D085}.Administartor|Default.Deploy.0 = Development
+		{0426F988-0E60-43BC-AC03-1BA52173D085}.Development|Default.ActiveCfg = Development
+		{0426F988-0E60-43BC-AC03-1BA52173D085}.Development|Default.Build.0 = Development
+		{0426F988-0E60-43BC-AC03-1BA52173D085}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7DBE6617-D17B-42D9-804C-A641B2071535}
+	EndGlobalSection
+EndGlobal

@@ -32,6 +32,12 @@
       <Dimension>
         <ID>v Dim Geography</ID>
       </Dimension>
+      <Dimension>
+        <ID>Dim Product</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Currency</ID>
+      </Dimension>
     </Dimensions>
     <Cubes>
       <Cube>
@@ -50,6 +56,14 @@
             <Partitions>
               <Partition>
                 <ID>v Fact IT Machine</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>v Fact Inventory</ID>
+            <Partitions>
+              <Partition>
+                <ID>v Fact Inventory</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>

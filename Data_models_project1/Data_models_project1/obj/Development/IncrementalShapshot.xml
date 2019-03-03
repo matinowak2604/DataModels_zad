@@ -26,7 +26,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>YRa6kND7DRqLHAlPq9dX3Y9t2wM=08.12.2018 20:59:0727.11.2018 22:38:31</TimeStamp>
+        <TimeStamp>2dK4lFxhneWkCOlOp6jlb3V1Ze8=16.12.2018 15:57:2427.11.2018 22:38:31</TimeStamp>
         <ID>
           <String>Contoso Retail DW</String>
         </ID>
@@ -40,7 +40,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>hDLWJnrFYCLqrlUmp5zJpfd+Go0=27.11.2018 22:38:3127.11.2018 22:38:31</TimeStamp>
+        <TimeStamp>9dDlzHrpmuUi9F/myDaq/2mc914=16.12.2018 15:29:0927.11.2018 22:38:31</TimeStamp>
         <ID>
           <String>v_Dim_Date</String>
         </ID>
@@ -61,7 +61,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>mXv9bboFpvGQRoHiN0P5kaa2JPQ=27.11.2018 22:38:3127.11.2018 22:38:31</TimeStamp>
+        <TimeStamp>henbhXOEnHm04luxFNvSftrOuE0=16.12.2018 14:29:3227.11.2018 22:38:31</TimeStamp>
         <ID>
           <String>v Dim Entity</String>
         </ID>
@@ -75,14 +75,28 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>LxvcOlup7G4mR0h5XKgfiHLCkRY=08.12.2018 20:54:0308.12.2018 20:54:02</TimeStamp>
+        <TimeStamp>o0adnWUVk4/2W7XRIlkyijrd9CU=16.12.2018 14:29:4508.12.2018 20:54:02</TimeStamp>
         <ID>
           <String>v Dim Geography</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>4VjXRe2A34vjDoUbVEz9NF2VCn4=16.12.2018 15:23:3216.12.2018 13:48:53</TimeStamp>
+        <ID>
+          <String>Dim Product</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>RRprSLA0Okt+NXEhB46qIdxi70Q=16.12.2018 15:23:3216.12.2018 14:31:22</TimeStamp>
+        <ID>
+          <String>Dim Currency</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>YWt8VdkqP6scexlh0y8wno/e4Mc=09.12.2018 10:28:3527.11.2018 22:38:31WEuTEkDpQosL5NTTrXFCLzWBwcA=09.12.2018 09:51:4627.11.2018 22:38:31</TimeStamp>
+        <TimeStamp>ztwH6Dq+H9mpjyOnjb+z6gS9J5c=16.12.2018 15:57:2427.11.2018 22:38:313+5Dhrjn+U7E7BF3W06RXrjFe68=16.12.2018 15:23:3227.11.2018 22:38:31</TimeStamp>
         <ID>
           <String>Contoso_Retail_DW_Cubes</String>
         </ID>
@@ -99,5 +113,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2018-12-09T09:43:30.596667Z</LastDeployed>
+  <LastDeployed>2019-01-12T09:54:24.286667Z</LastDeployed>
 </DeploymentSnapshot>
